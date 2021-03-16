@@ -1,7 +1,12 @@
+//CMSC 156 Laboratory Exercise #1
+//Kotlin Programming
+//by Kristen Ann Joy F. Luciano 	21/3/16
+//Video Defense Link: https://youtu.be/1sFln7EehzY
+
 import java.util.Scanner
 
 fun main() {
-    reverseString()
+    reverseString()				//calling of functions
     evenNaturalNumbers()
     anagram()
 }
@@ -27,6 +32,7 @@ fun evenNaturalNumbers(){
 	print(n)
 	println(" Even Natural Numbers are:" )
 
+	//looping
 	for (i in 1..n){
 		println(even)
 
@@ -61,6 +67,7 @@ fun anagram(){
 		var strSorted1 = arr1.sorted()
 		var strSorted2 = arr2.sorted()
 
+		//compare
 		if(strSorted1 == strSorted2){
 			println(" are anagrams")
 		}
